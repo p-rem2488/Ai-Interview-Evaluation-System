@@ -1,0 +1,26 @@
+{
+  "name": "interview-mvp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.2",
+    "@tensorflow-models/face-landmarks-detection": "^1.0.3",
+    "@tensorflow/tfjs": "^4.12.0",
+    "firebase": "^12.6.0",
+    "onnxruntime-web": "^1.23.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.4.7",
+    "vite": "^5.0.0"
+  }
+}

@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "node ./node_modules/vite/bin/vite.js build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -21,6 +21,19 @@
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.23",
     "tailwindcss": "^3.4.7",
-    "vite": "^7.2.4"
-  }
+    "vite": "^5.0.0"
+  },
+
+
+  "devDependencies": {
+  "vite": "^x.x.x"
+},
+  "engines": {
+  "node": ">=18 <21"
+},
+  "scripts": {
+  "dev": "vite",
+  "build": "npx vite build",
+  "preview": "vite preview"
+}
 }
